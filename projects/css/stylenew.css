@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    border-top: #ff0000 5px solid;
+    margin: 25px;
+    background-color: #000000;
+}
+
+.head {
+    text-align: center;
+}
+p,
+h1 {
+    color: white;
+}
+.article {
+    display: flex;
+    border-bottom: #ff0000 solid;
+}
+.article-first-left {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+.article-first-right {
+    width: 70%;
+}
+h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.article-second-left {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+.article-second-right {
+    width: 30%;
+}

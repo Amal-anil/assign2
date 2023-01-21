@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    border-top: #ff0000 5px solid;
+    margin: 25px;
+    background-color: #eef1ff;
+}
+.head,
+.photos,
+.author {
+    display: flex;
+    gap: 20px;
+}
+.head-left,
+.photos-left,
+.author-left {
+    width: 30%;
+    min-height: auto;
+    text-align: end;
+}
+.head-right,
+.photos-right {
+    width: 60%;
+    min-height: auto;
+}
+.head-color {
+    color: #ff0000;
+    margin-top: 20px;
+}
+
+.head-para {
+    margin-top: 20px;
+}
+.firstphoto {
+    display: flex;
+    gap: 20px;
+}
+.author-left,
+.author-right,
+.photos-left,
+.photos-right {
+    margin-top: 50px;
+}
+.author-right {
+    width: 30%;
+    min-height: auto;
+}
+.img {
+    margin-top: 50px;
+}
